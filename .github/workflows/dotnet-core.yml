@@ -17,7 +17,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   uses: actions/checkout@v7
-            -   uses: actions/setup-dotnet@v5.4.0
+            -   uses: actions/setup-dotnet@v6.0.0
                 with:
                     dotnet-version: 10.x
             -   id: git-vars
@@ -58,7 +58,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   uses: actions/checkout@v7
-            -   uses: actions/setup-dotnet@v5.4.0
+            -   uses: actions/setup-dotnet@v6.0.0
                 with:
                     dotnet-version: 10.x
             -   name: Install dependencies
@@ -76,7 +76,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   uses: actions/checkout@v7
-            -   uses: actions/setup-dotnet@v5.4.0
+            -   uses: actions/setup-dotnet@v6.0.0
                 with:
                     dotnet-version: 10.x
             -   name: Install dependencies
