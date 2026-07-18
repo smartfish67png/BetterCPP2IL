@@ -1,0 +1,32 @@
+# Build outputs
+bin/
+obj/
+artifacts/
+publish/
+
+# IDE files
+.idea/
+.vscode/
+.vs/
+*.user
+launchsettings.json
+
+# NuGet
+packages/
+
+# Output directories
+cpp2il_out/
+output_*/
+output*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+lcov.info
+
+# Rider
+.idea/
+*.sln.iml
