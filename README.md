@@ -156,7 +156,7 @@ Built with the following libraries (all MIT licensed unless noted):
 
 Based on [Il2CppDumper](https://github.com/Perfare/Il2CppDumper) and
 [Il2CppInspector](https://github.com/djkaty/Il2CppInspector/).
-Thanks to the myself for early support.
+Thanks to myself for early support.
 
 ## License
 
